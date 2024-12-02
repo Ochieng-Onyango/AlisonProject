@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+    
+/* navigation */
+.navigation-wraper{
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    /* flexbox-container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+
+.left-column {
+    display: flex;
+    align-items: center;
+}
+
+.phone-icon {
+    margin-right: 15px;
+}
+
+.phone-icon i {
+    font-size: 2em;
+}
+
+.left-colum > .contact-hours-wraper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    
+}
