@@ -14,22 +14,34 @@ body {
     padding: 60px 100px;
 }
 
-.left-column {
+.navigation-wraper > .left-column {
     display: flex;
     align-items: center;
 }
 
-.phone-icon {
+.navigation-wraper > .left-column > .phone-icon {
     margin-right: 15px;
 }
 
-.phone-icon i {
+.navigation-wraper > .left-column > .phone-icon i {
     font-size: 2em;
 }
 
-.left-colum > .contact-hours-wraper {
+.navigation-wraper >.left-colum > .contact-hours-wraper {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
     
+}
+
+.banner-image img {
+    width: 216px;
+    height: 100%;
+}
+
+.centre-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+
 }
